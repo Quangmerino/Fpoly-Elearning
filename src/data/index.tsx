@@ -80,7 +80,7 @@ const blogList = [
 
 const relatedBlog = [
     {
-        image: '/images/blog/',
+        image: '/images/blog/related-blog-2.png',
         title: 'Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution',
         avatar: '/images/avatar.jpeg',
         userName: 'Quang Ốc',
@@ -88,7 +88,23 @@ const relatedBlog = [
         view: '',
     },
     {
-        image: '/images/blog/',
+        image: '/images/blog/ux-ui-bg.png',
+        title: 'Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution',
+        avatar: '/images/avatar.jpeg',
+        userName: 'Quang Ốc',
+        description: 'Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...',
+        view: '',
+    },
+    {
+        image: '/images/blog/react-bg.png',
+        title: 'Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution',
+        avatar: '/images/avatar.jpeg',
+        userName: 'Quang Ốc',
+        description: 'Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...',
+        view: '',
+    },
+    {
+        image: '/images/blog/js-bg.png',
         title: 'Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution',
         avatar: '/images/avatar.jpeg',
         userName: 'Quang Ốc',
