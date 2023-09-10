@@ -8,7 +8,7 @@ import TitleComponent from "../common/TitleComponent";
 function RelatedBlog() {
   return (
     <div className="mb-20 bg-[#9DCCFF]/20 md:px-20 md:-mx-20 2xl:-mx-40 2xl:px-32 py-20">
-      <TitleComponent title='Related Blog' styleTitle="text-white"/>
+      <TitleComponent title='Related Blog'/>
       <SliderCustom
         className="relative"
         customArrow="absolute -bottom-14 right-0 flex items-center gap-5"

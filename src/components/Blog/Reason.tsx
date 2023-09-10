@@ -18,7 +18,7 @@ function Reason() {
           sed do eiusmod tempor
         </p>
         <div className="w-full flex justify-center md:justify-start">
-          <ButtonCustom name="Start learning now" className="!rounded-lg bg-[#49BBBD] border-0 normal-case my-3"/>
+          <ButtonCustom name="Start learning now" className="!rounded-lg bg-[#49BBBD] border-0 normal-case my-3 text-white"/>
         </div>
       </div>
       <div>
