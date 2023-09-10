@@ -2,6 +2,9 @@ import React, { ReactNode } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import User from "../User/User";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import SwitchTheme from "../DarkMode/DarkMode";
 
 type Props = {
   children: ReactNode;
@@ -9,10 +12,11 @@ type Props = {
 
 function Layout({ children }: Props) {
   return (
-    <div className="bg-white px-6 overflow-hidden md:px-20 2xl:px-40">
+    <div className="px-6 overflow-hidden md:px-20 2xl:px-40 relative">
       <Header/>
       {children}
       <Footer/>
+      <SwitchTheme/>
     </div>
   );
 }

@@ -36,12 +36,12 @@ function CardComponent({
   footer,
 }: Props) {
   return (
-    <div className={`${className}`}>
+    <div className={`${className} group`}>
       <div className={headerStyle}>
-        <div className={imageStyle}>
+        <div className={`${imageStyle} overflow-hidden rounded-2xl`}>
           <Image
             src={image ?? ""}
-            className={`w-full object-cover`}
+            className={`w-full object-contain group-hover:transition-all group-hover:duration-500 group-hover:ease-in-out group-hover:scale-125`}
             width={300}
             height={150}
             alt="image"
@@ -50,17 +50,17 @@ function CardComponent({
         {action && (
           <ButtonCustom
             onClick={onClick}
-            className={`min-w-[120px] cursor-pointer bg-[#49BBBD] text-white text-[18px] ${buttonStyle}`}
+            className={`min-w-[120px] cursor-pointer bg-[#49BBBD] text-[18px] ${buttonStyle}`}
             name={buttonName ?? "News"}
           />
         )}
         {info}
       </div>
       <div className="flex flex-col gap-6">
-        <h3 className={`text-[#252641] line-clamp-2 text-[26px] ${titleStyle}`}>
+        <h3 className={`line-clamp-2 text-[26px] ${titleStyle}`}>
           {title}
         </h3>
-        <p className={`line-clamp-2 text-[#696984] text-[20px] ${desStyle}`}>
+        <p className={`line-clamp-2 text-[20px] ${desStyle}`}>
           {description}
         </p>
         {footer}
