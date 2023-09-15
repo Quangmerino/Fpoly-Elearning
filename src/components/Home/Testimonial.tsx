@@ -7,7 +7,7 @@ import Rating from "../customs/Rating";
 
 function Testimonial() {
   return (
-    <div className="bg-white py-20 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-20">
+    <div className="py-20 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-20">
       <div className="flex flex-col items-center">
         <div className="flex items-center gap-4">
           <span className="h-[2px] w-16 bg-[#525596] block"></span>

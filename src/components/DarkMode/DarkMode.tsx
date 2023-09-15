@@ -23,9 +23,9 @@ const SwitchTheme = () => {
   return (
     <button className="btn btn-circle fixed left-10 bottom-10" onClick={toggleTheme}>
       {theme === "dark" ? (
-        <button><LightModeIcon/></button>
+        <LightModeIcon/>
       ) : (
-        <button><DarkModeIcon/></button>
+        <DarkModeIcon/>
       )}
     </button>
   );

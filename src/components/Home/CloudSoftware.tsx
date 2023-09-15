@@ -9,19 +9,19 @@ type Props = {};
 
 const cloudSoftware = [
   {
-    icon: <DescriptionIcon className="w-10 h-10" />,
+    icon: <DescriptionIcon className="w-10 h-10 text-white" />,
     title: "Online Billing, Invoicing, & Contracts",
     description:
       "Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts",
   },
   {
-    icon: <CalendarMonthIcon className="w-10 h-10" />,
+    icon: <CalendarMonthIcon className="w-10 h-10 text-white" />,
     title: "Easy Scheduling & Attendance Tracking",
     description:
       "Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance",
   },
   {
-    icon: <GroupsIcon className="w-10 h-10" />,
+    icon: <GroupsIcon className="w-10 h-10 text-white" />,
     title: "Customer Tracking",
     description:
       "Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization ",

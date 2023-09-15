@@ -17,7 +17,11 @@ const navigation = [
     },
     {
         name: 'About Us',
-        link: 'about-us',
+        link: '/about-us',
+    },
+    {
+        name: 'Membership',
+        link: '/membership',
     },
 ]
 
@@ -136,6 +140,100 @@ const marketing = [
     },
 ]
 
+const pricing = [
+    {
+        type: "Like a pussy",
+        costs: "Free",
+        time: "forever",
+        benefits: [
+            'Components-driven system',
+            'Sales-boosting landing pages',
+            'Awesome Feather icons pack',
+        ],
+    },
+    {
+        type: "👤 Individual",
+        costs: "$24",
+        time: "month",
+        benefits: [
+            'Components-driven system',
+            'Sales-boosting landing pages',
+            'Awesome Feather icons pack',
+            'Themed into 3 different styles',
+            'Will help to learn Figma',
+        ],
+    },
+    {
+        type: "👥 Corporate",
+        costs: "$12",
+        time: "editor",
+        benefits: [
+            'Components-driven system',
+            'Sales-boosting landing pages',
+            'Awesome Feather icons pack',
+            'Themed into 3 different styles',
+        ],
+    },
+]
+
+const reviews = [
+    {
+        image: '/images/avatar.jpeg',
+        name: 'Bulkin Simons',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod',
+    },
+    {
+        image: '/images/avatar.jpeg',
+        name: 'Bulkin Simons',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod',
+    },
+    {
+        image: '/images/avatar.jpeg',
+        name: 'Bulkin Simons',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod',
+    },
+    {
+        image: '/images/avatar.jpeg',
+        name: 'Bulkin Simons',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod',
+    },
+    {
+        image: '/images/avatar.jpeg',
+        name: 'Bulkin Simons',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod',
+    },
+    {
+        image: '/images/avatar.jpeg',
+        name: 'Bulkin Simons',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod',
+    },
+    {
+        image: '/images/avatar.jpeg',
+        name: 'Bulkin Simons',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod',
+    },
+    {
+        image: '/images/avatar.jpeg',
+        name: 'Bulkin Simons',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod',
+    },
+]
+
+const apply = [
+    {
+        image: '/images/blog/related-blog-2.png',
+        title: 'Become a Teacher',
+        des: 'Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...',
+        buttonName: 'Apply a Teacher'
+    },
+    {
+        image: '/images/blog/related-blog-2.png',
+        title: 'Become a Coursector',
+        des: 'Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...',
+        buttonName: 'Apply a Coursector'
+    }
+]
+
 export {
     navigation,
     menuFooter,
@@ -143,4 +241,7 @@ export {
     blogList,
     relatedBlog,
     marketing,
+    pricing,
+    reviews,
+    apply,
 }

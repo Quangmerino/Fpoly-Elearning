@@ -21,7 +21,7 @@ function Reason() {
           <ButtonCustom name="Start learning now" className="!rounded-lg bg-[#49BBBD] border-0 normal-case my-3 text-white"/>
         </div>
       </div>
-      <div>
+      <div className="flex lg:justify-end">
         <Image src='/images/blog/img-blog-page.png' alt="" width={600} height={300}/>
       </div>
     </div>
