@@ -14,7 +14,9 @@ function Layout({ children }: Props) {
   return (
     <div className="px-6 overflow-hidden md:px-20 2xl:px-40 relative">
       <Header/>
-      {children}
+      <div className="mt-20">
+        {children}
+      </div>
       <Footer/>
       <SwitchTheme/>
     </div>

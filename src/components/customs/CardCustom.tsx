@@ -8,7 +8,7 @@ type Props = {
 
 function CardCustom({children, className}:Props) {
   return (
-    <div className={`rounded-xl shadow-2xl ${className}`}>
+    <div className={`rounded-xl ${className}`}>
         {children}
     </div>
   )

@@ -7,12 +7,13 @@ type Props = {
   className?: string,
   children?: any;
   customArrow?: string,
+  styleButton?: string,
   slideToShow?: number,
   slideToScroll?: number,
   sliderSetting?: {},
 };
 
-function SliderCustom({className, children, customArrow, slideToShow, slideToScroll, sliderSetting}: Props) {
+function SliderCustom({className, children, customArrow, styleButton, slideToShow, slideToScroll, sliderSetting}: Props) {
   const sliderRef = useRef(null);
   const settings = {
     ...sliderSetting,
@@ -59,13 +60,13 @@ function SliderCustom({className, children, customArrow, slideToShow, slideToScr
     <div className={`${className}`}>
       <div className={`${customArrow}`}>
         <button 
-          className="bg-[#49BBBD] text-white p-2 rounded-md" 
+          className={`bg-[#49BBBD] text-white p-2 rounded-md ${styleButton}`} 
           onClick={() => sliderRef?.current?.slickPrev()}
         >
           <NavigateBeforeIcon/>
         </button>
         <button 
-          className="bg-[#49BBBD] text-white p-2 rounded-md" 
+          className={`bg-[#49BBBD] text-white p-2 rounded-md ${styleButton}`}
           onClick={() => sliderRef?.current?.slickNext()}
         >
           <NavigateNextIcon/>

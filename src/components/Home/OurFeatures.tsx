@@ -10,16 +10,16 @@ type Props = {};
 
 const forClassroom = [
   {
-    icon: <GridViewIcon className="text-black" />,
+    icon: <GridViewIcon />,
     description:
       "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
   },
   {
-    icon: <FilterNoneIcon className="text-black" />,
+    icon: <FilterNoneIcon />,
     description: "TA’s and presenters can be moved to the front of the class.",
   },
   {
-    icon: <Groups2Icon className="text-black" />,
+    icon: <Groups2Icon />,
     description:
       "Teachers can easily see all students and class data at one time.",
   },
@@ -57,10 +57,10 @@ function OurFeatures({}: Props) {
                   key={index + item.description}
                   className="flex gap-4 items-center"
                 >
-                  <span className="w-12 flex p-2 items-center justify-center shadow-2xl rounded-full border">
+                  <span className="w-12 flex p-2 items-center justify-center shadow-2xl rounded-full border lg:h-12">
                     {item.icon}
                   </span>
-                  <p className="text-[#696984]">{item.description}</p>
+                  <p className="">{item.description}</p>
                 </div>
               );
             })}
@@ -74,7 +74,7 @@ function OurFeatures({}: Props) {
             textLight="Tools"
             className="lg:flex lg:flex-row-reverse space-x-1.5 text-center gap-1.5 lg:!justify-end xl:inline-block"
           />
-          <p className="text-center text-[18px] text-[#696984] lg:text-[22px]">
+          <p className="text-center text-[18px] lg:text-[22px]">
             Class has a dynamic set of teaching tools built to be deployed and
             used during class. Teachers can handout assignments in real-time for
             students to complete and submit.
@@ -91,7 +91,7 @@ function OurFeatures({}: Props) {
             styleTextDark="text-start"
             styleTextLight="text-end"
           />
-          <p className="text-center text-[18px] text-[#696984] lg:text-[22px] mt-10">
+          <p className="text-center text-[18px] lg:text-[22px] mt-10">
             Easily launch live assignments, quizzes, and tests. Student results
             are automatically entered in the online gradebook.
           </p>
@@ -104,7 +104,7 @@ function OurFeatures({}: Props) {
             textLight="Tools for Educators"
             className="flex flex-col !items-start"
           />
-          <p className="text-center text-[18px] text-[#696984] lg:text-[22px] mt-10">
+          <p className="text-center text-[18px] lg:text-[22px] mt-10">
             Class provides tools to help run and manage the class such as Class
             Roster, Attendance, and more. With the Gradebook, teachers can
             review and grade tests and quizzes in real-time.
@@ -118,7 +118,7 @@ function OurFeatures({}: Props) {
             textLight="Discussions"
             className="flex flex-col !items-start"
           />
-          <p className="text-center text-[18px] text-[#696984] lg:text-[22px]mt-10">
+          <p className="text-center text-[18px] lg:text-[22px]mt-10">
             Teachers and teacher assistants can talk with students privately
             without leaving the Zoom environment.
           </p>

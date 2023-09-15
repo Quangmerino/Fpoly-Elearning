@@ -41,7 +41,7 @@ function CardComponent({
         <div className={`${imageStyle} overflow-hidden rounded-2xl`}>
           <Image
             src={image ?? ""}
-            className={`w-full object-contain group-hover:transition-all group-hover:duration-500 group-hover:ease-in-out group-hover:scale-125`}
+            className={`w-full object-contain transition-all duration-300 ease-in hover:transition-all hover:duration-500 hover:ease-out hover:scale-125`}
             width={300}
             height={150}
             alt="image"
